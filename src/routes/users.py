@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 from sqlalchemy.orm import Session
-from database import session, User
+from src.database import session, User
 from pydantic import BaseModel
 
 router = APIRouter()
